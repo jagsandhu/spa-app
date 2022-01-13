@@ -16,7 +16,7 @@ const isIE = window.navigator.userAgent.indexOf("MSIE ") > -1 || window.navigato
  */
 export const msalConfig: Configuration = {
     auth: {
-        clientId: 'Enter_the_Application_Id_Here', // This is the ONLY mandatory field that you need to supply.
+        clientId: 'e9fe2439-7b5f-46ea-b079-077be01f6575', // This is the ONLY mandatory field that you need to supply.
         authority: 'https://login.microsoftonline.com/organizations', // Defaults to "https://login.microsoftonline.com/common"
         redirectUri: '/', // Points to window.location.origin. You must register this URI on Azure portal/App Registration.
     },
@@ -46,7 +46,7 @@ export const protectedResources = {
     },
     todoListApi: {
         endpoint: "https://localhost:44351/api/todolist",
-        scopes: ["Enter_the_Web_Api_Scope_here"],
+        scopes: ["api://316f2063-b934-4564-98e3-f1b9fec06341/access_as_user"],
     },
 }
 

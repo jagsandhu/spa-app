@@ -202,8 +202,8 @@ Open the project in your IDE (like Visual Studio or Visual Studio Code) to confi
 > In the steps below, "ClientID" is the same as "Application ID" or "AppId".
 
 1. Open the `SPA\src\app\auth-config.ts` file.
-1. Find the key `Enter_the_Application_Id_Here` and replace the existing value with the application ID (clientId) of `ProfileSPA` app copied from the Azure portal.
-1. Find the key `Enter_the_Tenant_Info_Here` and replace the existing value with your Azure AD tenant ID.
+1. Find the key `e9fe2439-7b5f-46ea-b079-077be01f6575` and replace the existing value with the application ID (clientId) of `ProfileSPA` app copied from the Azure portal.
+1. Find the key `1877e775-e4b3-445f-89a4-15cf34043c91` and replace the existing value with your Azure AD tenant ID.
 1. Find the key `Enter_the_Application_Id_of_Service_Here` and replace the existing value with the application ID (clientId) of `ProfileAPI` app copied from the Azure portal.
 
 #### Configure Known Client Applications for service (ProfileAPI)

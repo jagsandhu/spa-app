@@ -303,13 +303,13 @@ Function ConfigureApplications
    # Update config file for 'service'
    $configFile = $pwd.Path + "\..\API\appsettings.json"
    Write-Host "Updating the sample code ($configFile)"
-   $dictionary = @{ "Enter the domain of your Azure AD tenant, e.g. 'contoso.onmicrosoft.com'" = $tenantName;"Enter the Client ID (aka 'Application ID')" = $serviceAadApplication.AppId;"Enter the tenant ID" = $tenantId };
+   $dictionary = @{ "jagslab.net" = $tenantName;"Enter the Client ID (aka 'Application ID')" = $serviceAadApplication.AppId;"Enter the tenant ID" = $tenantId };
    ReplaceInTextFile -configFilePath $configFile -dictionary $dictionary
 
    # Update config file for 'client'
    $configFile = $pwd.Path + "\..\SPA\src\app\auth-config.ts"
    Write-Host "Updating the sample code ($configFile)"
-   $dictionary = @{ "Enter_the_Application_Id_Here" = $clientAadApplication.AppId;"Enter_the_Tenant_Info_Here" = $tenantId;"Enter_the_Web_Api_Scope_here" = ("api://"+$serviceAadApplication.AppId+"/access_as_user") };
+   $dictionary = @{ "e9fe2439-7b5f-46ea-b079-077be01f6575" = $clientAadApplication.AppId;"1877e775-e4b3-445f-89a4-15cf34043c91" = $tenantId;"api://316f2063-b934-4564-98e3-f1b9fec06341/access_as_user" = ("api://"+$serviceAadApplication.AppId+"/access_as_user") };
    ReplaceInTextFile -configFilePath $configFile -dictionary $dictionary
    Write-Host ""
    Write-Host -ForegroundColor Green "------------------------------------------------------------------------------------------------" 

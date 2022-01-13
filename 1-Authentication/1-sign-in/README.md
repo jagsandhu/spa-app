@@ -122,8 +122,8 @@ Open the project in your IDE (like Visual Studio or Visual Studio Code) to confi
 > In the steps below, "ClientID" is the same as "Application ID" or "AppId".
 
 1. Open the `SPA\src\app\auth-config.ts` file.
-1. Find the key `Enter_the_Application_Id_Here` and replace the existing value with the application ID (clientId) of `msal-angular-spa` app copied from the Azure portal.
-1. Find the key `Enter_the_Tenant_Info_Here` and replace the existing value with the tenant ID of `msal-angular-spa` app copied from the Azure portal.
+1. Find the key `e9fe2439-7b5f-46ea-b079-077be01f6575` and replace the existing value with the application ID (clientId) of `msal-angular-spa` app copied from the Azure portal.
+1. Find the key `1877e775-e4b3-445f-89a4-15cf34043c91` and replace the existing value with the tenant ID of `msal-angular-spa` app copied from the Azure portal.
 
 ## Running the sample
 
@@ -318,8 +318,8 @@ For more information, see: [Events in MSAL Angular v2](https://github.com/AzureA
 For instance, to configure this sample for **Azure AD Germany** National Cloud:
 
 1. Open the `src\app\auth-config.ts` file.
-1. Find the app key `Enter_the_Application_Id_Here` and replace the existing value with the application ID (clientId) of the `ms-identity-javascript-angular-signin` application copied from the Azure portal.
-1. Find the app key `https://login.microsoftonline.com/Enter_the_Tenant_Info_Here` and replace the existing value with `https://portal.microsoftazure.de/<your-tenant-id>`.
+1. Find the app key `e9fe2439-7b5f-46ea-b079-077be01f6575` and replace the existing value with the application ID (clientId) of the `ms-identity-javascript-angular-signin` application copied from the Azure portal.
+1. Find the app key `https://login.microsoftonline.com/1877e775-e4b3-445f-89a4-15cf34043c91` and replace the existing value with `https://portal.microsoftazure.de/<your-tenant-id>`.
 
 See [National Clouds](https://docs.microsoft.com/azure/active-directory/develop/authentication-national-cloud#app-registration-endpoints) for more information.
 

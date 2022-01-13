@@ -153,9 +153,9 @@ Open the project in your IDE to configure the code.
 >In the steps below, "ClientID" is the same as "Application ID" or "AppId".
 
 1. Open the `SPA\src\app\auth-config.ts` file.
-1. Find the key `Enter_the_Application_Id_Here` and replace the existing value with the application ID (clientId) of `msal-angular-spa` app copied from the Azure portal.
-1. Find the key `Enter_the_Tenant_Info_Here` and replace the existing value with your Azure AD tenant ID.
-1. Find the key `Enter_the_Web_Api_Scope_here` and replace the existing value with *scope* you created earlier e.g. `api://{clientId_of_service_app}/access_as_user`.
+1. Find the key `e9fe2439-7b5f-46ea-b079-077be01f6575` and replace the existing value with the application ID (clientId) of `msal-angular-spa` app copied from the Azure portal.
+1. Find the key `1877e775-e4b3-445f-89a4-15cf34043c91` and replace the existing value with your Azure AD tenant ID.
+1. Find the key `api://316f2063-b934-4564-98e3-f1b9fec06341/access_as_user` and replace the existing value with *scope* you created earlier e.g. `api://{clientId_of_service_app}/access_as_user`.
 
 ## Run the sample
 

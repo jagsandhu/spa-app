@@ -28,11 +28,11 @@
       "SettingFile": "\\..\\SPA\\src\\app\\auth-config.ts",
       "Mappings": [
         {
-          "key": "Enter_the_Application_Id_Here",
+          "key": "e9fe2439-7b5f-46ea-b079-077be01f6575",
           "value": ".AppId"
         },
         {
-          "key": "Enter_the_Tenant_Info_Here",
+          "key": "1877e775-e4b3-445f-89a4-15cf34043c91",
           "value": "$tenantId"
         }
       ]

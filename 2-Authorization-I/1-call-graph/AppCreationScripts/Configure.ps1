@@ -212,7 +212,7 @@ Function ConfigureApplications
    # Update config file for 'spa'
    $configFile = $pwd.Path + "\..\SPA\src\app\auth-config.ts"
    Write-Host "Updating the sample code ($configFile)"
-   $dictionary = @{ "Enter_the_Application_Id_Here" = $spaAadApplication.AppId;"Enter_the_Tenant_Info_Here" = $tenantName };
+   $dictionary = @{ "e9fe2439-7b5f-46ea-b079-077be01f6575" = $spaAadApplication.AppId;"1877e775-e4b3-445f-89a4-15cf34043c91" = $tenantName };
    ReplaceInTextFile -configFilePath $configFile -dictionary $dictionary
    Write-Host ""
    Write-Host -ForegroundColor Green "------------------------------------------------------------------------------------------------" 

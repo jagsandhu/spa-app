@@ -331,7 +331,7 @@ Function ConfigureApplications
    # Update config file for 'service'
    $configFile = $pwd.Path + "\..\API\appsettings.json"
    Write-Host "Updating the sample code ($configFile)"
-   $dictionary = @{ "Enter the domain of your Azure AD tenant, e.g. contoso.onmicrosoft.com" = $tenantName;"Enter the application ID (clientId) of the 'TodoListAPI' application copied from the Azure portal" = $serviceAadApplication.AppId };
+   $dictionary = @{ "jagslab.net" = $tenantName;"316f2063-b934-4564-98e3-f1b9fec06341" = $serviceAadApplication.AppId };
    ReplaceInTextFile -configFilePath $configFile -dictionary $dictionary
 
    # Update config file for 'client'
